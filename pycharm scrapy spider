@@ -1,3 +1,21 @@
+##install Scrapy
+##install pywin32 (only needed in Windows system)
+##load Scrayp plugin :
+scrapy startproject <"name1"> (#name1 = helloScrapy)
+##then create a python file in the <"name1"> folder
+##run script in the Terminal of pycharm : 
+#call the path : 
+cd <"name1">
+#create further folder : 
+cd <"name2">
+#create further folder : 
+cd <"name3">
+#run python file :
+scrapy crawl quotes
+#run python file and save the result data:
+scrapy crawl quotes -o <"name4"."file_type">
+
+####script : 
 import scrapy
 
 class QuotesSpider (scrapy.Spider) :
