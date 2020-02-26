@@ -36,3 +36,5 @@ class QuotesSpider (scrapy.Spider) :
 ########data source : 
 http://quotes.toscrape.com/page/1/
 http://quotes.toscrape.com/page/2/
+
+#better useing text file to open
